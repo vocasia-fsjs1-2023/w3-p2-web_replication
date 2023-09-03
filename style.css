@@ -1,0 +1,85 @@
+main{
+    background-color: rgba(0, 0, 0, 0.744);
+    min-width: 250px;
+    height: 650px;
+    margin: 10px 390px;
+    border-radius: 10px;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h2{
+    color: white;
+    font-size: 33px;
+}
+
+body{
+    background-image: url(desktop-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: fit-content;
+    max-height: fit-content;
+    block-size: fit-content;
+    margin: 0px;
+}
+
+#a1{
+    text-decoration: none;
+    color: white;
+    float: right;
+}
+
+#a2 {
+    text-decoration: none;
+    color: white;  
+}
+
+#a3{
+    text-decoration: none;
+    color: blue;
+}
+
+#logo{
+    width: 200px;
+    height: 130px;
+}
+
+.small{
+    color: white;
+    margin-top: 90px;
+    opacity: 80%;
+}
+
+#checkbox{
+    color: white;
+    text-align: left;
+}
+
+.checkbox{
+    margin-left: 5px;
+}
+
+#button{
+    margin: 30px 10px 10px 10px;
+    padding: 17px 0px;
+    width: 370px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.input{
+    margin: 8px;
+    padding: 15px;
+    width: 340px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(65, 64, 64);
+    opacity: 1;
+}
+
+
