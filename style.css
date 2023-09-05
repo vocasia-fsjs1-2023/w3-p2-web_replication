@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto: wght@400;500; 600; 700&display-swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'roboto', 'sans-serif';
+}
+body {
+    background: rgba(0, 0, 0, 0.5) url('bckrd.jpg');
+    background-blend-mode: darken;
+}
+nav {
+    position: fixed;
+    z-index: 1;
+    padding: 20px 30px;
+}
+nav a img {
+    width: 150px;
+}
+.kotak {
+    left: 50%;
+    top: 50%;
+    width: 350px;
+    height: 450px;
+    padding: 50px;
+    border-radius: 4px;
+    position: absolute;
+    background: rgba( 0, 0, 0, 0.8);
+    transform: translate(-50%, -50%);
+}
+.kotak h2 {
+    color: rgb(243, 243, 243);
+    font-size: 30px;
+}
+.kotak form {
+    margin: 30px 0 70px;
+}
+form .kotak1 {
+    height: 50px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.kotak1 input {
+    width: 90%;
+    height: 90%;
+    background: #131212;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    padding: 0 20px;
+}
+form button {
+    width: 100%;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    background: red;
+    margin: 25px 0 10px;
+    transition: 0.1s ease;
+    font-weight: 500;
+    height: 50px;
+}
+form button:hover {
+    background: maroon;
+}
+form .kotak2 {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+form .remember-me input {
+    margin-right: 5px;
+    accent-color: rgb(165, 163, 163);
+}
+form .kotak2 :where(a) {
+    font-size: 0.9rem;
+}
+.kotak :where(p, small, a, label) {
+    color: rgb(165, 163, 163);
+}
+.kotak p a {
+    color: white;
+}
+
+.kotak small a {
+    color: rgb(7, 7, 179);
+}
