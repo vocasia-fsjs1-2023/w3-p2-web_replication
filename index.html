@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#"><img src="Vector__3_.svg" alt="logo"></a>
+            <!-- src="assets/images/logo.svg"-->
+        </nav>
+    </header>
+    <main>
+        <div id="transparant">
+            <h2>Masuk</h2>
+            <form action="#">
+                <div>
+                    <input type="text" placeholder="Email atau nomor telepon" required oninvalid="this.setCustomValidity('masukan email atau nomor telepon yang valid')"
+                    oninput="this.setCustomValidity('')">
+                </div>
+                <div>
+                    <input type="password" placeholder="Password" required oninvalid="this.setCustomValidity('sandi harus berisi antara 4 hingga 60 karakter')"
+                    oninput="this.setCustomValidity('')">
+                </div>
+                <button type="submit">Sign In</button>
+                <div> 
+                    <div>
+                        <input type="checkbox" id="remember-me">
+                        <label for="remember-me">Ingat saya</label>
+                        <a id="help" href="#">Butuh bantuan?</a>
+                    </div>
+                </div>
+                <div>
+                    <p>Baru di Netflix?? <a id="signwhite" href="#">Daftar Sekarang</a></p>
+                    <small>
+                        Halaman ini dilindungi oleh reCAPTCHA Google untuk memastikan kamu bukan bot.
+                        <br><a id="more" href="#">Pelajari selengkapnya</a>
+                    </small>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

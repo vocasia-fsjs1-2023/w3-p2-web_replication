@@ -1,0 +1,134 @@
+@media screen and (min-width: 741px) {
+    body {
+        background:url("bg1.jpg") no-repeat center center fixed;
+        background-size:cover;
+    }
+
+    h2{
+        text-align: center;
+    }
+   
+    form{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #transparant{
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 5%;
+        background-color: rgba(0, 0, 0, 0.8);
+    
+    }
+
+    input{
+        width: 90%;
+        height:40px;
+    }
+    button{
+        width: 93%;
+
+    }
+  }
+
+@media screen and (max-width: 740px) {
+    body {
+      background-color: black;
+    }
+
+    input, button{
+        width: 100%;
+    }
+    
+}
+
+
+main{
+    color: rgba(150, 151, 150, 0.75);
+}
+
+header img{
+    width: 200px;
+    height: 60px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+h2{
+    color: white;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+input{
+    background-color: rgba(34, 40, 34, 0.75);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border:2px solid rgba(34, 40, 34, 0.75) ;
+    font-size: 16px;
+}
+
+::placeholder{
+    padding-left:10px;
+}
+
+input:focus{
+    padding-left: 20px;
+    border:2px solid rgba(34, 40, 34, 0.75) ;
+}
+
+
+input:focus::placeholder {
+    transform: translateY(-10px);
+    font-size: 12px;
+    visibility: visible;
+    border:2px solid rgba(34, 40, 34, 0.75) ;
+}
+
+
+input[type=text]{
+    color:white; 
+}
+
+input[type=password]{
+    color:white; 
+}
+
+#signwhite{
+    color: white;
+    text-decoration: none;
+}
+
+button{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#transparant{
+    height: 500px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#help{
+    color: rgba(150, 151, 150, 0.75);
+    margin-left: 48%;
+}
+
+#remember-me{
+    width: fit-content;
+    height: 13px;
+    margin-top: 5px;
+}
+
+#more{
+    color: dodgerblue;
+}
