@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.d-flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 15px;
+}
+.new{
+    text-align: start !important;
+    margin-bottom: 10px;
+}
+.text-blue{
+    color:rgb(74, 101, 255) !important;
+}
+
+.text-light{
+    color: #fff !important;
+}
+.background-web{
+    background-image: url("bg.jpg");
+    transform: scaleX(1);
+    height: 100vh;
+    filter: brightness(0.4);
+    background-size: contain;
+}
+
+header {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inp{
+    opacity: 1;
+}
+nav a img {
+    max-height: 45px;
+}
+.kotak{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: rgba(36, 35, 35, 0.5);
+    border: none;
+    color: #fff;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #e50914;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff121e;
+}
+
+
+div > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+a[href="#"] {
+    color: #e50914;
+    text-decoration: none;
+}
+
+a[href="#"]:hover {
+    text-decoration: underline;
+}
+
+
+div > div:last-child {
+    margin-top: 20px;
+}
+
+small {
+    font-size: 12px;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+
+small a[href="#"] {
+    color: #fff;
+    text-decoration: none;
+}
+
+small a[href="#"]:hover {
+    text-decoration: underline;
+}
