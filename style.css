@@ -1,0 +1,113 @@
+body{
+    background: url(netflix-bg.jpg);
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    display: block;
+}
+
+header nav img{
+    margin: 1%;
+    height: 45px;
+    z-index: 2;
+}
+.box-login{
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 0 auto;    
+    width: 100%;
+    min-width: 380px;
+    max-width: 460px;
+    min-height: 660px;
+    padding: 20px 50px 40px;
+}
+h2{
+    color: #fff;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, sans-serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+form{
+    display: block;
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.form-fill{
+    width: 100%;
+    padding-bottom: 24px;
+
+}
+
+input[type="text"],
+input[type="password"]{
+    padding: 16px 0;
+    width: 100%;
+    text-align: left;
+    border-radius: 4px;
+    background-color: #333;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+button{
+    display: block;
+    background-color: #e50914;
+    border: none;
+    padding: 16px;
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+}
+
+div .form-help{
+    display: flex;
+    font-size: 16px;
+    margin-top: 15px;
+    position: relative;
+}
+
+
+div label,
+div input#remember-id{
+    flex-grow: 1;
+    margin: 0;
+    color: #b3b3b3;
+}
+
+div.form-help a{
+    text-decoration: none;
+    color: #b3b3b3;
+    flex: 0 0 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+div.form-other{
+    margin-top: 80px;
+    color: #b3b3b3;
+}
+
+.form-other a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.form-other small a{
+    color: blue;
+}
+
