@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica Neue, Segoe UI, Roboto, sans-serif;
+}
+body {
+    background-image: url("https://www.okynemedialab.com/wp-content/uploads/2019/11/netflix-background-50-Black-1080x608.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    position: fixed;
+    z-index: 1;
+    padding: 25px 60px;
+}
+nav a img {
+    width: 160px;
+}
+.form-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 430px;
+    padding: 60px;
+    border-radius: 4px;
+    background: rgba(0,0,0,0.75);
+    transform: translate(-50%, -50%);
+ }
+ .form-wrapper h2 {
+    color: #fff;
+    font-size: 2rem;
+ }
+ .form-wrapper form {
+    margin: 25px 0 65px;
+ }
+ form .form-control {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 16px;
+ }
+ .form-control input {
+    height: 100%;
+    width: 100%;
+    background: #333;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: 0 14px ;
+ }
+ form button {
+    width: 100%;
+    padding: 16px 0;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 4px;
+    background: #e50914;
+    margin: 25px 0 10px;
+    transition: 0.1s ease;
+ }
+form button:hover {
+    background: #c40812;
+}
+form .form-help {
+    display: flex;
+    justify-content: space-between;
+}
+form .remember-me {
+    display: flex;
+    font-size: 0.9rem;
+}
+form .remember-me input{
+    margin-right: 5px;
+    accent-color: #b3b3b3;
+}
+form .form-help :where(label, a) {
+    font-size: 0.8rem;
+}
+.form-wrapper :where(label, p, small, a) {
+    color: #b3b3b3;
+}
+.form-wrapper p a {
+    color: #fff;
+}
+.form-wrapper small {
+    display: block;
+    margin-top: 15px;
+}
+.form-wrapper p {
+    font-size: 1rem;
+    margin-top: 30px;
+}
+.form-wrapper small a {
+    color: #0071eb;
+}
+.form-wrapper a:hover {
+    text-decoration: underline;
+}
