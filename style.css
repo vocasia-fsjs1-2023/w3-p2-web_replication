@@ -1,0 +1,92 @@
+body {
+  font-family: Sans, sans-serif;
+  background: url(hero-img.jpg);
+}
+
+.logo img {
+  width: 100px;
+  margin-left: 30px;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 340px;
+  padding: 60;
+  border-radius: 4px;  
+  transform: translate(-50%, -50%);
+  background-color: #000000d9;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+}
+
+form {
+  text-align: center;
+}
+
+form button {
+  width: 70%;
+  padding: 16px 0;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #e50914;
+  margin: 25px 0 10px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 60%;
+  padding: 15px;
+  height: 60%;
+  margin-bottom: 15px;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  background: #333;
+  border-radius: 4px;
+}
+
+section {
+  color: #b3b3b3;
+  /* margin-right: 5px; */
+  /* display: flex; */
+  /* background-color: #e50914; */
+  /* justify-content: space-between; */
+}
+.form-help {
+  display: flex;
+  color: #b3b3b3;
+  /* background-color: #fff; */
+  justify-content: space-between;
+}
+
+.form-help .remembe{
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-help a {
+  text-decoration: none;
+}
+.form-daftar {
+  color: #b3b3b3;
+} 
+
+/* .form-baru a { 
+  text-decoration: none;
+} */
