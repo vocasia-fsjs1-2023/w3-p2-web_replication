@@ -139,7 +139,7 @@ form .form-help :where(label, a) {
 }
 
 .form-wrapper p {
-    padding-top: 20px;
+    padding-top: 18px;
 }
 .form-wrapper p a {
     color: #fff;
